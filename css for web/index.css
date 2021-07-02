@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.contener{
+    width: 95%;
+    margin: 0 auto;
+}
+
+main{
+    background-color: rgb(18, 61, 155);
+    overflow: hidden;
+}
+
+.logo{
+    width: 10%;
+    display: block;
+    float: left;
+}
+.logo h1{
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgb(250, 248, 249);
+    font-size: 3em;
+    cursor: pointer;
+}
+
+.nav__bar{
+    display: block;
+    float: left;
+    width: 90%;
+
+}
+.navigation__var{
+    position: relative;
+    text-align: center;
+    padding: 10px 0;
+}
+.navigation__var > li{
+    list-style: none;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 23px 10px;
+    margin: 0 5px;
+    color: rgb(228, 212, 212);
+    transition: 0.3s;
+}
+.navigation__var li a{
+    text-decoration: none;
+    color: rgb(228, 212, 212);
+    transition: 0.3s;
+}
+
+.nth__2:hover .inner__nav__one{
+    display: block;
+}
+.nth__2{
+    cursor: pointer;
+}
+
+.navigation__var li a:hover{
+    color: white;
+}
+.inner__nav__one{
+    position: absolute;
+    display: none;
+    left: 405px;
+    top: 60px;
+}
+.inner__nav__one > li{
+    list-style: none;
+    line-height: 25px;
+}
+#three:hover .inner__of__inner__nav{
+    display: block;
+}
+.inner__of__inner__nav{
+    display: none;
+    position: absolute;
+    top: 55px;
+    left: 40px;
+}
+.inner__of__inner__nav li{
+    list-style: none;
+}
+
+
+.slider{
+    padding: 80px 0;
+}
+
+.slider__info{
+    width: 50%;
+    float: left;
+}
+.slider__info h1{
+    color: rgb(228, 212, 212);
+    line-height: 40px;
+    padding: 60px 0;
+}
+.slider__info p{
+    color: rgb(228, 212, 212);
+    line-height: 20px;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.img__slider{
+    width: 50%;
+    float: left;
+}
+.img__slider img{
+    height: 100vh;
+    width: 100%;
+}
+.slider__info button{
+    padding: 15px 35px;
+    color: rgb(228, 212, 212);
+    background-color: rgba(84, 12, 151, 0.486);
+    outline: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.slider__info button:hover{
+    background-color: rgb(32, 5, 66);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px){
+    .inner__nav__one{
+        left: 120px;
+        top: 55px;
+}
+.inner__of__inner__nav{
+    left: 35px;
+    top: 55px;
+}
+.logo{
+    width: 25%;
+}
+.nav__bar{
+    width: 75%;
+
+}
+.navigation__var > li{
+    padding: 23px 0px;
+    margin-left: 5px;
+}
+.slider__info h1{
+    margin-bottom: 20px;
+}
+.slider__info p{
+    text-align: unset;
+    padding-bottom: 18px;
+}
+.slider__info button{
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+}
+
+
+
+
